@@ -25,11 +25,13 @@ Criar um arquivo .env a partir .env.example
 
 modificar o DB_USERNAME e DB_PASSWORD
 
-`` composer install ``
+` composer install `
 
-`` php artisan migrate --seed ``
+` php artisan key:generate`
 
-`` php artisan serve ``
+` php artisan migrate --seed `
+
+` php artisan serve `
 
 
 
