@@ -17,3 +17,19 @@ Um usuário quer saber como vai ficar o tempo para os próximos dias utilizando 
 - Uma API com endpoints para buscar localidades e previsão fazendo leitura dos JSONs no diretório base;
 - Testes (unidade ou funcional).
 
+## Comandos
+
+Criar um arquivo .env a partir .env.example
+
+`` cp .env.example .env ``
+
+modificar o DB_USERNAME e DB_PASSWORD
+
+`` composer install ``
+
+`` php artisan migrate --seed ``
+
+`` php artisan serve ``
+
+
+
